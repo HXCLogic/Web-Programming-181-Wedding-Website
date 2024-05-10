@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Steyn and Wynand Erasmus | Wedding</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!--Jo-Anne van der Wath (577394)
+        Henry Roux (577440)
+        Mckyle Meyer (577523)
+        Zeldene van Vüren (577115)
+        Lecturer: Evangelistars Shayamano
+    -->
+</head>
+<body>
+    <Section id="container">
+        <header>
+            <img src="./Images/logo.png" alt="Bride and Groom logo" id="logo">
+            <section id="top">
+                <h1 id="mainHeading">RSVP</h1>
+                <nav>
+                    <ul>
+                        <li class="navLink"><a href="home.html">Home</a></li>
+                        <li class="navLink"><a href="#"><u>RSVP</u></a></li>
+                        <li class="navLink"><a href="wedding.html">Wedding</a></li>
+                        <li class="navLink"><a href="story.html">Our Story</a></li>
+                        <li class="navLink"><a href="gallery.html">Gallery</a></li>
+                        <li class="navLink"><a href="music.html">Music</a></li>
+                    </ul>
+            </nav>
+            </section>
+        </header>
+        <section id="content">
+            <h2>Please fill in the following to RSVP for the wedding:</h2>
+
+            <form action="" id="formRSVP">
+                <fieldset>
+                    <label for="rsvpAttending">Will you be attending?</label> <br>
+                    <input type="radio" name="rsvpAttending" id="rsvpAttendingYes"><span>Yes</span>
+                    <input type="radio" name="rsvpAttending" id="rsvpAttendingNo"><span>No</span>
+                    <br><br>
+                    <label for="rsvpGift">Gift type:</label><br>
+                    <select id="rsvpGift" name="rsvpGift">
+                        <option value="registry">From the Registry</option>
+                        <option value="nonRegistry">Not from the Registry</option>
+                        <option value="financial">Financial contribution</option>
+                        <option value="none">None</option>
+                    </select>
+                    <br><br>
+                    <label for="rsvpDiet">Please choose your preferred diet:</label> <br>
+                    <input type="radio" name="rsvpDiet" id="rsvpDietNormal"><span>Normal</span>
+                    <input type="radio" name="rsvpDiet" id="rsvpDietVegetarian"><span>Vegetarian</span>
+                    <input type="radio" name="rsvpDiet" id="rsvpDietVegan"><span>Vegan</span>
+                    <br><br>
+                    <label for="rsvpAllergies">If you have any allergies, please specify in the box below:</label><br>
+                    <textarea name="rsvpAllergies" rows="5" cols="30"></textarea>
+                    <br><br>
+                    <label for="rsvpNight">Will you be staying the night?</label><br>
+                    <input type="radio" name="rsvpNight" id="rsvpNightYes"><span>Yes</span>
+                    <input type="radio" name="rsvpNight" id="rsvpNightNo"><span>No</span>
+                </fieldset>
+            </form>
+            <p id="rsvpP">Click the button below to submit and go to the <u>Wedding Page.</u></p>
+            <a href="./wedding.html" id="cta" style="margin-left: 45%;">Submit</a>
+        </section>
+        <footer>
+            Copyright &copy; 2022 | 577394 | 577440 | 577523 | 577115
+        </footer>
+    </Section>
+</body>
+</html>

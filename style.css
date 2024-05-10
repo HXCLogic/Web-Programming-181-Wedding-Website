@@ -1,0 +1,441 @@
+/* Jo-Anne van der Wath (577394)
+Henry Roux (577440)
+Mckyle Meyer (577523)
+Zeldene van Vüren (577115)
+Lecturer: Evangelistars Shayamano */
+
+body {
+    font-size: 16pt;
+    background-color: rgb(66, 73, 40);
+    font-family: 'Raleway', sans-serif;
+}
+
+#container {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(198, 204, 204);
+}
+
+header {
+    height: 175px;
+}
+
+#mainHeading {
+    width: 75%;
+    font-family: 'Brush Script MT', cursive;
+    color:rgb(66,73,40);
+    text-shadow: 1px 2px 0px rgb(209, 167, 85);
+    font-size: 45pt;
+    margin: 15px 0px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+}
+
+#logo {
+    width: 175px;
+    height: 175px;
+    float: left;
+    vertical-align: top;
+    margin-left: 5%;
+}
+
+nav {
+    width: 55%;
+    margin-left: 5%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav ul {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.navLink {
+    list-style: none;
+    display: inline-block;
+}
+
+.navLink a {
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    margin-left: 25px;
+}
+
+.navLink a:hover {
+    background-image: linear-gradient(to right, rgb(142, 147, 115), rgb(198, 204, 204));
+}
+
+#content {
+    margin: 25px 5%;
+    padding: 50px 9% 70px 13%;
+    background-image: url(./Images/left.jpg), url(./Images/right.jpg);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 175px, 150px;
+    background-attachment: scroll;
+    border: 2px dashed rgb(66, 73, 40);
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 20pt;
+    margin: 15px 0px;
+    text-align: center;
+    font-weight: 400;
+}
+
+aside {
+    width: 30%;
+    display: inline-block;
+}
+
+article {
+    width: 68%;
+    margin-left: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#cta {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 5px 10px;
+    background-color: rgb(218, 204, 188);
+    margin-left: 10%;
+}
+
+#cta:hover {
+    background-color: rgb(185, 156, 126);
+}
+
+footer {
+    text-align: center;
+    font-size: 11pt;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* ----------------------------------------- */
+/* Index Page */
+
+#bodyLogin {
+    background-color: rgb(198, 204, 204);
+}
+
+#containerLogin {
+    width: 60%;
+    height: 850px;
+    margin: 20px auto;
+    border: 1px solid rgb(198, 204, 204);
+    background-image: url(./Images/Login.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#contentLogin {
+    margin: 20%;
+}
+
+#mainHeadingLogin {
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 1px 2px 0px rgb(209, 167, 85);
+    font-size: 30pt;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#loginParagraph1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loginParagraph2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#formLogin {
+    margin-left: 38%;
+}
+
+#loginUsername {
+    background-color: rgb(218, 204, 188);
+}
+
+#loginPassword {
+    background-color: rgb(218, 204, 188);
+}
+
+/* Index Page */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/* Home Page */
+
+#homePhoto {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#HomeDate{
+    /* color: rgb(66, 73, 40); */
+    font-size: 20pt;
+
+}
+#HomeTime{
+    /* color: rgb(66, 73, 40); */
+    font-size: 20pt;
+}
+
+/* Home Page */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/* RSVP Page */
+
+#formRSVP {
+    margin-left: 7%;
+    vertical-align: top;
+}
+
+fieldset {
+    border: none;
+}
+
+#formRSVPLeft select {
+    width: 200px;
+}
+
+#rsvpP {
+    text-align: center;
+}
+
+/* RSVP Page */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/* Wedding Page */
+
+#weddingInfo {
+    width: 100%;
+}
+
+#guests{
+    width: 100%;
+}
+#address{
+border-collapse: collapse;
+width: 100%;
+text-align: center;
+font-weight: bold;
+margin: 0 auto;
+background-color: rgb(142, 147, 115);
+height: 100px;
+}
+#address td{
+border-right: 6px solid rgb(198, 204, 204);
+}
+#countdown{
+text-align: center;
+font-size: 60px;
+margin-top: 60px;
+width: 100%;
+}
+#countdown p {
+text-align: center;
+font-size: 50px;
+width: 150px;
+margin-top: 0px;
+margin-right: 30px;
+background-color: rgb(142, 147, 115);
+color: rgb(209, 167, 85);
+border-radius: 20px;
+display: inline-block;
+box-shadow: 4px 4px 9px black;
+}
+#wedding {
+display: inline-block;
+font-size: 40px;
+vertical-align: top;
+margin: 10px 1% 10px;
+width: 40%;
+background-image: url("./Images/diamondhillvenue.png");
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 8px 8px 9px black;
+}
+.p{
+color: rgb(185, 156, 126);
+padding-left: 50px;
+font-family: Brush Script MT, cursive;
+text-shadow: 2px 1px 0px  black;
+}
+#map{
+display: inline-block;
+vertical-align: top;
+margin-left: 2%;
+margin-top: 10px;
+box-shadow: 8px 8px 9px black;
+}
+#map iframe {
+    width: 500px;
+}
+.address {
+color:rgb(209, 167, 85);
+}
+
+/* Wedding Page */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/* Our Story Page */
+
+#firstParagraph::first-letter{
+    font-size: 49px;
+    float: left;
+    line-height: 1;
+    text-shadow: 2px 2px 5px;
+}
+
+#meetingImage{
+    width: 35%;
+    height: auto;
+    float: left;
+    box-shadow: 10px 10px 20px;
+    margin-right: 20px;
+}
+
+/* Our Story */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/* Gallery */
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+    /* max-height: 500px; */
+}
+
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#videoBox {
+    margin-top: 40px;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.galleryVideos {
+    width: 30%;
+    margin-left: 2%;
+}
+
+/* Gallery Page */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/* Music Page */
+
+#musicForm {
+    text-align: center;
+}
+
+#rsvpButton {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 5px 10px;
+    background-color: white;
+    margin-left: 3%;
+}
+
+#musicAside {
+    border-left: dotted 3px rgb(66, 73, 40);
+}
+
+#musicAside p, #musicAside a {
+    padding-left: 20px;
+}
+
+#spotify {
+    width: 200px;
+}
+
+/* Music Page */
+/* ----------------------------------------- */
